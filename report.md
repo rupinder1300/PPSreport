@@ -58,6 +58,7 @@ int main(void)
     printf("\narea of the rectangle: %d square inches", area);
     return 0;
 }
+```
 
 Experiment No. 4
 Design a code to execute addition of two numbers if the sum is even.
