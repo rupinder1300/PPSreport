@@ -11,3 +11,14 @@ Branch: Electrical
 
 Section: B
 
+-------
+
+Experiment No: 1
+Write a code to print name of the collage.
+```
+#include<stdio.h>
+int main();
+{
+puts("Welcome you in gndec");
+}
+```
