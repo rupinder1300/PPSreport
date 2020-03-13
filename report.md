@@ -1,10 +1,10 @@
-# Programing for problem solving (ESC-105)
+# Programing For Problem Solving (ESC-105)
 ------
-Name:Rupinder kaur
+Submitted By:Rupinder kaur
 
 Class Roll no. 1916064
 
-University roll no. 1905146
+University Roll no. 1905146
 
 Branch:Electrical
 
