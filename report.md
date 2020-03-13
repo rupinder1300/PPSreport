@@ -1,4 +1,4 @@
-# Programing For Problem Solving (ESC-105)
+# Programming For Problem Solving (ESC-105)
 ------
 Submitted By:Rupinder kaur
 
