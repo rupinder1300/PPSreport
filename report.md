@@ -40,3 +40,21 @@ c=a+b;
 printf("c:%d",c);
 }
 ```
+
+Experiment No:3
+Write a C program to compute the perimeter and area of a rectangle with a
+ height of 7 inches and width of 5 inches.
+```C
+
+#include <stdio.h>
+int main(void)
+{
+    int a,b,perimeter,area;
+    printf("enter the numbers:");
+    scanf("%d%d", &a, &b);
+    perimeter=2*(a+b);
+    printf("perimeter of the rectangle: %d inches",perimeter);
+    area=a*b;
+    printf("\narea of the rectangle: %d square inches", area);
+    return 0;
+}
