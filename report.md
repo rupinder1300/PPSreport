@@ -15,7 +15,7 @@ Section: B
 
 Experiment No: 1
 Write a code to print name of the collage.
-```
+```C
 #include<stdio.h>
 int main();
 {
