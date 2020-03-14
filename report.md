@@ -83,3 +83,23 @@ int main()
     }
     
 }
+```
+
+Experiment No. 5
+Write a C program to print big'C'. 
+```C
+#include<stdio.h>
+int main () 
+{
+    puts(" ######");
+    puts("##    ##");
+    puts("#");
+    puts("#");
+    puts("#");
+    puts("#"); 
+    puts("#");
+    puts("##    ##");
+    puts(" ######");
+    return(0);
+} 
+  ```
