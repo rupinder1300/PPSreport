@@ -15,7 +15,7 @@ Batch:2019-2023
 
 -------
 
-Experiment No: 1
+            Experiment No: 1
 Write a code to print name of the collage.
 ```C
 #include<stdio.h>
