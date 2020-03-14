@@ -25,7 +25,7 @@ puts("Welcome you in gndec");
 }
 ```
 
-Experiment No: 2
+            Experiment No: 2
 Desing a code to execute addtion of two number.
 ```C
 #include<stdio.h>
@@ -41,7 +41,7 @@ printf("c:%d",c);
 }
 ```
 
-Experiment No:3
+            Experiment No:3
 Write a C program to compute the perimeter and area of a rectangle with a
  height of 7 inches and width of 5 inches.
 ```C
@@ -60,7 +60,7 @@ int main(void)
 }
 ```
 
-Experiment No. 4
+            Experiment No. 4
 Design a code to execute addition of two numbers if the sum is even.
 ```C
 
@@ -85,7 +85,7 @@ int main()
 }
 ```
 
-Experiment No. 5
+           Experiment No. 5
 Write a C program to print big'C'. 
 ```C
 #include<stdio.h>
