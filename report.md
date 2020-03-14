@@ -60,7 +60,7 @@ int main(void)
 }
 ```
 
-            Experiment No. 4
+            Experiment No: 4
 Design a code to execute addition of two numbers if the sum is even.
 ```C
 
@@ -85,7 +85,7 @@ int main()
 }
 ```
 
-           Experiment No. 5
+           Experiment No: 5
 Write a C program to print big'C'. 
 ```C
 #include<stdio.h>
