@@ -7,7 +7,7 @@ Class Roll no: 1916064
 
 University Roll no: 1905146
 
-Branch: Electrical
+Branch: Electrical Engineering
 
 Section: B
 
