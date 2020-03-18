@@ -103,3 +103,17 @@ int main ()
     return(0);
 } 
  ```
+
+```C
+#include<stdio.h>
+void main()
+{
+    int a,b;
+    a=1000;
+    b=250;
+    if(a<b)
+    {printf("%d",a);}
+        else
+        {printf("%d",b);}
+}
+```
