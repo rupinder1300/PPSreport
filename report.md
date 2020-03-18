@@ -104,6 +104,8 @@ int main ()
 } 
  ```
 
+             Experiment No:6
+Write a computer program in C, which takes two numbers (integers) as input and print the smaller number.
 ```C
 #include<stdio.h>
 void main()
