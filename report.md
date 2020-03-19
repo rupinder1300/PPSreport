@@ -160,3 +160,30 @@ int main() {
     return 0;
 } 
 ``` 
+   
+            Experiment No:9
+Write a C program to print the following character in a reverse way without using any predefined function and header file 
+```C 
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+char Str[100], RevStr[100];
+int i, j, len;
+
+printf("\n Enter a string to reverse:");
+scanf("%s",Str);
+j=0;
+len = strlen(Str);
+for (i = len-1;i>=0; i--)
+{
+    RevStr[j++] = Str[i];
+}
+RevStr[i] = '\0';
+
+printf("Reverse of the string is: %s\n",RevStr);
+
+return 0;
+} 
+```
