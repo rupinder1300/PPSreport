@@ -186,4 +186,22 @@ printf("Reverse of the string is: %s\n",RevStr);
 
 return 0;
 } 
-```
+``` 
+
+             Experiment No:10  
+Write a code to convert temperature from Fahrenheit scale to centigrade scale. 
+```C
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+    float fr,cent;
+
+    printf("enter the temprature in fahrenheit:");
+    
+    scanf("%f",&fr);
+    cent= 5/9*(fr-32);
+    printf("temprature in centigrade : %f",cent);
+return(0);
+} 
