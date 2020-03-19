@@ -205,3 +205,47 @@ int main()
     printf("temprature in centigrade : %f",cent);
 return(0);
 } 
+``` 
+
+             Experiment No:11
+Problem: Design a code to mark 'Present' if student entered in a hall before 8:35 and
+marked 'Late' before 8:45 otherwise marked 'Absent'. 
+```C 
+#include<stdio.h>
+int main()
+{
+    float time;
+    scanf("%f", &time);
+    if(time>8.14 && time<8.36)
+    printf("Present");
+    else
+    {
+        if(time>=8.36 && time<=8.45)
+        printf("Late");
+        else
+    {
+if(time>8.45 && time<9.00)
+printf( "Absent");
+else
+{
+    if(time==8.00 && time<=8.14)
+    printf(" Sorry Gate Closed");
+    else
+{
+    if(time>7.00 && time<8.00)
+    printf(" You Entered Wrong Time");
+    else
+    {
+        if(time>=9.00)
+        printf(" Sorry Gate Closed");
+        else
+        {
+            if(time>=1.00 && time< 7.00)
+            printf(" Wrong Timing");
+        }
+    }
+}
+}
+}
+}
+}
