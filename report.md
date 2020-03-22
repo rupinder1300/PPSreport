@@ -249,3 +249,29 @@ else
 }
 }
 }
+ ``` 
+
+            Experiment No:12 
+Write a code to find the factorial of a number 
+```C
+#include<stdio.h>
+long factorial (int);
+int main()
+{
+    int x;
+    long fact =1;
+    printf(" \n Enter a number to calculate it's factorial :");
+    scanf(" %d", &x);
+    printf(" %d! = %1d\n",x,factorial (x));
+    return 0;
+}
+
+long factorial (int x )
+{
+    int c;
+    long ans =1;
+    for (c = x; c> 1; c--)
+    { ans *= c; }
+    return ans;
+}  
+```
