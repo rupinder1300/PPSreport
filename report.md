@@ -347,3 +347,27 @@ for(i=m;i<=n;i++)
 }
 }  
 ``` 
+
+             Experiment No:16 
+Write a code to print a range of prime number between some range 
+```C 
+#include<stdio.h>
+int main()
+{
+    int x,y,count=0,k;
+    scanf("%d%d",&x ,&y);
+    for(int i=x;i<=y;i++)
+    {
+        for(int k=1;k<=i;k++)
+        {
+            if(i%k==0)
+            count++;
+        }
+        if (count==2)
+        printf(" \n%d",i);
+        count=0; 
+    }
+    printf(" \n");
+    return 0;
+} 
+```
