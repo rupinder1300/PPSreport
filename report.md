@@ -301,4 +301,29 @@ int main()
     }
     return 0;
 }  
+```  
+
+              Experiment No:14 
+Write a program to swap two numbers using a temporary variable. 
+```C
+#include<stdio.h>
+void swap ( int*,int*);
+int main()
+{
+    int x,y;
+    printf("\n Enter the two integers :");
+    scanf("%d %d",&x,&y);
+    printf(" \nBefore Swapping \nx = %d \ny =%d ",x,y);
+    swap (&x,&y);
+    printf(" \n After swapping \nx = %d \ny  %d",x,y);
+    return 0; 
+}
+
+void swap (int*a,int*b)  
+{
+    int temp;
+    temp = *b;
+    *b = *a;
+    *a = temp;
+} 
 ``` 
