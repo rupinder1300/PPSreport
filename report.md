@@ -327,3 +327,23 @@ void swap (int*a,int*b)
     *a = temp;
 } 
 ``` 
+
+             Experiment No:15 
+Write a code to print table between range i.e table 6 to 9. 
+```C 
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int n,i,j,m; 
+scanf(" %d %d",&m,&n);
+for(i=m;i<=n;i++)
+{
+    for(j=1;j<=10;j++)
+    {
+        printf( " \n%d x %d=%d", i,j,i*j);
+    }
+    printf(" \n-------------");
+}
+}  
+``` 
