@@ -274,4 +274,31 @@ long factorial (int x )
     { ans *= c; }
     return ans;
 }  
-```
+``` 
+
+            Experiment No:13 
+Write a code to display the number is prime 
+```C
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf(" \n Enter the Number :");
+    scanf("%d",&a);
+    
+    for (int x=1;x<a;x++)
+    
+    {        if(a % x==0)
+        {
+            printf("%d is a Prime Number ",a);
+            break;
+        } 
+        else
+        {
+            printf("%d is not a Prime Number",a);
+            break;
+        }
+    }
+    return 0;
+}  
+``` 
